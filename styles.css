@@ -1,0 +1,140 @@
+
+body{
+    background-color: #ffff00;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:5px;
+    margin: 0 10%;
+    
+}
+.clr{
+    clear: both;
+}
+h1{
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-style: italic;
+    color: purple;
+}
+p,video,img{
+    border: 5px dotted red;
+    padding:10px;
+    color:rgb(135, 61, 227);}
+    
+video {
+    width: 43em;
+    height: 21em;
+    padding: 10px;
+    background-image:url(./banglore.jpg);
+}
+table{
+    border: solid black 5px;
+}
+tr,th,td{
+    border: 1px black solid;
+}
+p{
+    line-height: 1em;
+    word-spacing: 1em;
+    letter-spacing: 2px;
+
+}
+ul{
+    list-style-image: url(./check.png);
+}
+.ls-heading{
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-style: italic;
+    text-align: center;
+}
+a:hover{
+    color: red;
+
+}
+a:active{
+    color: green;
+}
+a:visited{
+    color:brown;
+}
+.my-form{
+    padding: 20px;
+
+}
+.form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.my-form input[type="submit"]{
+    color:blue;
+    border: red solid 5px;
+}
+
+.my-form input[type="submit"]:hover{
+    background-color: red;
+    color: white;
+}
+.rick{
+    border: solid red 3px;
+}
+.my-table{
+    margin-bottom: 32px;
+}
+
+.block p{
+    border:none;
+}
+.block{
+    
+    float:left;
+    width: 33.3%;
+    box-sizing:border-box;
+    border: blue solid 1px;
+}
+
+#main-block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+#sidebar{
+    float: right;
+    width:30%;
+    padding: 15px;
+    box-sizing: border-box;
+    position:relative;
+    top: 65px;
+}
+.fix-me{
+    position: fixed;
+    top:40px;
+    right: 10px;
+}
+.stuff{
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    background-image: url(./banglore.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+
+.my-list :nth-child(even){
+    background-color: blue;
+
+}
+.my-list :nth-child(odd){
+    background-color: gray;
+
+}
